@@ -4,7 +4,7 @@ export function createButtonElement(props) {
   const buttonImage = createElement("img", {
     className: "btn__img",
     src: props.imageSrc,
-    alt: `${props.alt}`,
+    alt: `${props.alt ? props.alt : ""}`,
   });
 
   const buttonText = createElement("span", {
@@ -13,7 +13,7 @@ export function createButtonElement(props) {
   });
 
   const buttonElement = createElement("button", {
-    className: "btn",
+    className: `btn ${props.class ? props.class : ""}`,
     children: [buttonImage, buttonText],
   });
 

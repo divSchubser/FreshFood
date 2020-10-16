@@ -1,5 +1,5 @@
 .btn {
-  background-color: var(--primary);
+  background: var(--primary);
   border: none;
   padding: 1em;
   border-radius: 36px;
@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  color: white;
 }
 
 .btn :first-child {
@@ -14,6 +15,10 @@
 }
 
 .btn__text {
-  color: white;
   font-weight: 700;
+}
+
+.btn--secondary {
+  background: none;
+  color: var(--medium-grey);
 }

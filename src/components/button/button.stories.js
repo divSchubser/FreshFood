@@ -18,7 +18,12 @@ const buttonlist = [
     alt: "Arrow right",
     imageSrc: rightArrow,
   },
+  {
+    type: "CREATE ACCOUNT",
+    class: "btn--secondary",
+  },
 ];
 
 export const signInButton = () => createButtonElement(buttonlist[0]);
 export const createAccountButton = () => createButtonElement(buttonlist[1]);
+export const createAccountInactive = () => createButtonElement(buttonlist[2]);
