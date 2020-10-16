@@ -1,0 +1,23 @@
+.input {
+  display: flex;
+  align-items: center;
+  background: var(--light-grey);
+  border-radius: 8px;
+  padding: 0 1em;
+}
+
+.input :first-child {
+  margin-right: 1em;
+}
+
+.input__text {
+  background: none;
+  border: none;
+  color: var(--medium-grey);
+  height: 3em;
+  width: 100%;
+}
+
+.input__text::placeholder {
+  color: var(--medium-grey);
+}
