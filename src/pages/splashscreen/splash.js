@@ -8,7 +8,3 @@ export function createSplashscreen() {
   });
   return pageContainer;
 }
-
-// ! <div class="pageContainer">
-//!     <img src....>
-//! </div>
