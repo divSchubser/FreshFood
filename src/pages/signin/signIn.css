@@ -17,7 +17,7 @@
 }
 .page-heading {
   color: var(--primary);
-  margin: 17vh 0;
+  margin: min(13vh, 40%, 18vh) 0;
   font-weight: 400;
 }
 
