@@ -1,8 +1,24 @@
 .btn {
-  border-radius: 20px;
-  font-size: 1.2rem;
-  color: white;
-  background: #016b6b;
+  background: var(--primary);
   border: none;
-  padding: 10px 20px;
+  padding: 1em;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+}
+
+.btn :first-child {
+  margin-right: 0.5em;
+}
+
+.btn__text {
+  font-weight: 700;
+}
+
+.btn--secondary {
+  background: none;
+  color: var(--medium-grey);
 }

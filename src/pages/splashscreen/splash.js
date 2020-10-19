@@ -3,12 +3,8 @@ import { logo } from "../../components/logo/logo.stories";
 
 export function createSplashscreen() {
   const pageContainer = createElement("div", {
-    className: "pageContainer",
+    className: "centerContainer",
     children: [logo()],
   });
   return pageContainer;
 }
-
-// ! <div class="pageContainer">
-//!     <img src....>
-//! </div>

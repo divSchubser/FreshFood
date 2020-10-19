@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url("https://use.typekit.net/ftz0yem.css");
+
+:root {
+  --primary: #7bed8d;
+  --lighter-grey: #f0f4f8;
+  --light-grey: #dbe2ed;
+  --medium-grey: #a6bcd0;
+  --medium-grey-darker: #748a9d;
+  --dark-grey: #4e5d6a;
+  --darker-grey: #404e5a;
+}
 
 *,
 *::after,
@@ -11,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "acumin-pro", sans-serif;
   margin: 0;
 }
 
@@ -21,5 +31,5 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: "Quicksand", sans-serif;
+  font-family: "acumin-pro", sans-serif;
 }
